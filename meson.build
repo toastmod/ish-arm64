@@ -1687,6 +1687,7 @@ if get_option('kernel') == 'ish'
     endif
 
     src = [
+        'main.c'
         'kernel/init.c',
         'kernel/errno.c',
 
