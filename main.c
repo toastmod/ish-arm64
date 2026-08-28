@@ -282,7 +282,7 @@ void *poll_fn(void *arg) {
     return NULL;
 }
 
-int main(int argc, char *const argv[]) {
+int ish_main(int argc, char *const argv[]) {
     ish_signpost_init();
     atexit(dump_pc_hist);
     { extern void dump_wx_stats(void); atexit(dump_wx_stats); }
